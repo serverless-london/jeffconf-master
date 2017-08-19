@@ -21,22 +21,33 @@
   <style>
   .bg-graph {background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
 
+  .rotate-0 { -webkit-transform: rotate( 0deg ); transform: rotate( 0deg ); }
   .rotate-345 { -webkit-transform: rotate( 345deg ); transform: rotate( 345deg ); }
 
+  .rotate-355 { -webkit-transform: rotate( 355deg ); transform: rotate( 355deg ); }
+
   .shadow-6 { box-shadow: 0px -4px 4px 0px rgba( 0, 0, 0, 0.2 );}
+
+  @media screen and (min-width: 30em) {
+    .rotate-345-ns { -webkit-transform: rotate( 345deg ); transform: rotate( 345deg ); }
+  }
+
   </style>
 
 
 
-  <body class="bg-white" onload="startJexx()">
+  <body class="bg-white">
     <header class="sans-serif code" >
-      <nav class="dt w-100 h3-ns shadow-5-ns fixed bg-white" style="z-index:10">
-            <div class="dtc-ns dn v-mid pa3">
+      <nav class="dt w-100 h3-ns shadow-5 fixed bg-white" style="z-index:10">
+          <div class="dt-row dib-ns center w-100 w-30-ns">
+            <div class="dtc v-mid pt3 pa3-ns tc tl-ns">
               <a href="/" class="tc grow-large">
                 <img src="https://res.cloudinary.com/senzo/image/upload/c_scale,w_256/v1496742111/JeffCont-title_kbocwv.png" alt="Geoff" height="41" width="256" />
               </a>
             </div>
-            <div class="dtc v-mid tr-ns tc pa3">
+          </div>
+          <div class="dt-row dib-ns w-100 w-70-ns">
+            <div class="dtc v-mid tc tr-ns pv2 pa3-ns fr-ns">
               <a href="/" class="f5 fw4 shadow-hover no-underline dib pa1 pa2-ns dark-gray">Home</a> 
               <a href="/organise" class="f5 fw4 shadow-hover no-underline dib pa1 pa2-ns dark-gray">Organise</a>
               <a href="/events" class="f5 fw4 shadow-hover no-underline dib pa1 pa2-ns dark-gray">Events</a> 
@@ -44,38 +55,15 @@
               <a href="/diversity" class="f5 fw4 shadow-hover no-underline dib pa1 pa2-ns dark-gray">Diversity</a>
               <a href="/coc" class="f5 fw4 shadow-hover no-underline dib pa1 pa2-ns dark-gray">Code of Conduct</a>
             </div>
+          </div>
       </nav>      
+    </header> 
     </header>
  
-    <div class="w-100 pt5 pb3 bg-graph">
-      <div class="dt pt4 center"> 
-        <a href="https://milan.jeffconf.com" target="_blank" class="no-underline">
-          <div class="dtc bg-white ph3 pt3 pb2 ba br0 b--black-10 rotate-345 pointer grow" style="z-index:-1">
-            <div class="w5 h5 ba br0 b--transparent cover" style="background:url(https://res.cloudinary.com/senzo/image/upload/c_crop,h_497,w_497,x_400,y_40/v1502286336/milano_mgvvbl.jpg)">
-              <img src="https://res.cloudinary.com/senzo/image/upload/c_scale,w_220/v1502286339/jeffconf-italy_l6aggc.png" alt="JeffConf Milan" class="pa3"/>
-            </div>
-            <p class="code fw8 f3 tc mt3 mv2 no-underline black">Milano</p>
-          </div>
-        </a>
-
-        <div class="dtc black pl4 mw8 mw6-ns v-top code">
-          <p class="f4 fw6">
-          JeffConf Milan 2017
-          </p>
-          <p class="f6 fw4 pb4">
-          The second ever JeffConf comes to Milan. It's a one day event on Friday 29 September 2017 at the Grand Visconti Palace.
-          </p>
-          <a href="https://milan.jeffconf.com/tickets" class="tc pa2 bg-green white sans-serif no-underline f6 fw4 ba br2 b--transparent pointer" target="_blank">
-            Buy Tickets
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="w-100 center shadow-6 pt2 bg-white">
+    <div class="w-100 center shadow-6 pt6 bg-white">
       <div class="w-60 center pa2 code">
         <p class="f4 fw6">
-            What's a <span id="jexx">JeffConf</span>?
+        Organise a JeffConf/JessConf/JexxConf/&#123;insert name here&#125;?
         </p>
         <p class="f6 fw4">
         An epithet fluid series of community organised conferences focusing on the future of software design in a <span class="strike">cloud native</span> serverless world.
@@ -85,115 +73,42 @@
         </p>
         <p class="f6 fw4">
         Anyone can organise one, the only requirements are that diversity is prioritised, it's not run for profit, and you have fun doing it.
+        </p>
+        <p>
+        <a href="http://jsconf.com/i-want-to-run-a-jsconf.html">JSConf</a>
+        </p>
+        <p>
+        <a href="http://www.securitybsides.com/w/page/12194160/OrganizeALocalBSides">BSides</a>
+        </p>
+        <p>
+        <a href="https://www.devopsdays.org/organizing/">DevOpsDays</a>
+        </p>
       </div>
     </div>
 
     <div class="w-100 center pb2 bg-white">
-      <div class="dt w-60 pt3 pb4 center">
-        <div class="dtc black v-top code pointer pa2 w-33">
-          <p class="f4 fw6">
-          Upcoming Events
-          </p>
-          <p class="f6 fw4">
-          JeffConf Milan - 29 September 2017
-          </p>
-        </div>
-        <div class="dtc black v-top code pointer pa2 w-33">
-          <p class="f4 fw6">
-          Organise your own
-          </p>
-          <p class="f6 fw4">
-          Run your own conference in your home town. This is a local conference for local people. Get in touch and we'll help you run your own conference.
-          </p>
-        </div>
-        <div class="dtc black v-top code pointer pa2 w-33">
-          <p class="f4 fw6">
-          Previous Events
-          </p>
-          <p class="f6 fw4">
-          JeffConf London 2017
-          </p>
-        </div>
-      </div>
+      
     </div> 
-
-    <div class="w-100 center pb2 bg-white">
-      <div class="dt pt3 center w-60">
-        <div class="dtc black v-top code w-60">
-          <p class="f4 fw6">
-          Videos
-          </p>
-          <p class="f6 fw4">
-          Check out the videos from previous <span id="jexx4">JeffConf</span> events
-          </p>
-        </div>
-
-        <div class="dtc w-40">
-           <img src="http://res.cloudinary.com/senzo/image/upload/c_scale,w_360/v1502294132/ben_video_lllkjp.png" alt="Ben Fletcher Thumbnail" class="pa3 pointer"/>
-        </div>
-      </div>
-   </div>
        
 
 </body>
 
-<footer class="f6">
-    <div class="w-100 ph2 ph0-ns center bg-navy white-70 h4 pt3">
+<footer>
+    <div class="w-100 ph2 ph0-ns bg-near-white black-50 h5 pt3 f6">
       <div class="fl mh6">
-          <a href="/" class="white no-underline fw1"><p class="tl mv0">Home</p></a> 
-          <a href="/organise" class="white-70 no-underline fw1"><p class="tl mv0">Organise</p></a>
-          <a href="/events" class="white-70 no-underline fw1"><p class="tl mv0">Events</p></a>
-          <a href="/videos" class="white-70 no-underline fw1"><p class="tl mv0">Videos</p></a>
-          <a href="/diversity" class="white-70 no-underline fw1"><p class="tl mv0">Diversity</p></a> 
-          <a href="/coc" class="white-70 no-underline fw1"><p class="tl mv0">Code of Conduct</p></a>
+          <a href="/" class="black-70 no-underline fw1"><p class="tl mt0 mb1">Home</p></a> 
+          <a href="/organise" class="black-70 no-underline fw1"><p class="tl mt0 mb1">Organise</p></a>
+          <a href="/events" class="black-70 no-underline fw1"><p class="tl mt0 mb1">Events</p></a>
+          <a href="/videos" class="black-70 no-underline fw1"><p class="tl mt0 mb1">Videos</p></a>
+          <a href="/diversity" class="black-70 no-underline fw1"><p class="tl mt0 mb1">Diversity</p></a> 
+          <a href="/coc" class="black-70 no-underline fw1"><p class="tl mt0">Code of Conduct</p></a>
       </div>
       <div class="fl ml6">
-          <a class="fl fw1 tl mt0 mb1 no-underline yellow" href="mailto:jeffconf@serverless.london">jeffconf@serverless.london</a>
-          <p class="tl"><a href="https://twitter.com/jeffconf" class="twitter-follow-button" data-show-count="false">Follow @jeffconf</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+          <a class="fl fw1 tl mt0 mb1 no-underline navy" href="mailto:hello@jeffconf.com">hello@jeffconf.com</a>
       </div>
     </div>
 
 </footer>
 
-<script>
-function startJexx () {
-  window.setInterval(makeJexx, 250);
-};
-
-var lastJexx = 3;
-var currPos = 7;
-var lastPos=7;
-var decrement = true;
-
-function changeJexx(jexxStr,Pos) {
-  var resp = jexxStr.substring (0,Pos)
-  console.log (resp);
-  document.getElementById("jexx").innerHTML = resp;
-}
-
-function makeJexx( )
-{
-  var jexxArray = ["JeffConf", "JessConf", "JexxConf"];
-  var currJexx = (lastJexx >= 2) ? currJexx = 0 : currJexx = lastJexx + 1
-  var jexxName = jexxArray[currJexx];
-
-  currPos =  (decrement) ? lastPos - 1 : lastPos + 1
-  console.log ("Decrement: "+decrement+ " Position:"+currPos+" last Pos: "+lastPos)
-  changeJexx(jexxName,currPos);
-  lastPos = currPos
-
-  if (currPos < 3 ) {
-    decrement = false
-    lastJexx=currJexx;
-  } else {
-    if (currPos > 7) {
-      decrement = true;
-    }
-  }
-
-  
-}
-
-</script>
 
 </html>
